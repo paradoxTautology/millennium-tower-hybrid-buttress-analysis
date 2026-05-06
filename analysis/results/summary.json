@@ -1,0 +1,107 @@
+{
+  "baseline": {
+    "label": "Original (No Fix)",
+    "tilt": {
+      "diff_settlement_mm": 1.8039258975477424e-09,
+      "tilt_rad": 4.227422894515706e-14,
+      "tilt_degrees": 2.4221349007272815e-12,
+      "top_displacement_m": 8.310944313702097e-12,
+      "top_displacement_inches": 3.2720253203551563e-10
+    },
+    "forces": {
+      "max_settlement_mm": 384.1522376614365,
+      "min_settlement_mm": 369.0479353818484,
+      "center_settlement_mm": 384.1522376614365,
+      "edge_avg_settlement_mm": 369.0479353827503,
+      "center_dish_mm": 15.104302278686191,
+      "overturning_moment_kNm": 6.233208235276573e-06,
+      "equivalent_lateral_force_kN": 6.341134341773559e-08,
+      "required_tie_force_per_buttress_kN": 0.0,
+      "required_tie_force_per_buttress_kips": 0.0
+    }
+  },
+  "ppu_only": {
+    "label": "Current Fix (Perimeter Piles)",
+    "tilt": {
+      "diff_settlement_mm": 375.201649042971,
+      "tilt_rad": 0.00879246298207624,
+      "tilt_degrees": 0.5037710203979786,
+      "top_displacement_m": 1.728607597376545,
+      "top_displacement_inches": 68.05541721954901
+    },
+    "forces": {
+      "max_settlement_mm": 458.4139824935815,
+      "min_settlement_mm": 83.21233345061052,
+      "center_settlement_mm": 324.90317515883385,
+      "edge_avg_settlement_mm": 270.813157972096,
+      "center_dish_mm": 54.09001718673784,
+      "overturning_moment_kNm": 1296405.5855422036,
+      "equivalent_lateral_force_kN": 13188.524543146388,
+      "required_tie_force_per_buttress_kN": 0.0,
+      "required_tie_force_per_buttress_kips": 0.0
+    }
+  },
+  "hybrid": {
+    "label": "Hybrid (Piles + Buttress Ties)",
+    "tilt": {
+      "diff_settlement_mm": 132.22843571537726,
+      "tilt_rad": 0.0030987067045533004,
+      "tilt_degrees": 0.17754281611979583,
+      "top_displacement_m": 0.6091952931172738,
+      "top_displacement_inches": 23.984066658160387
+    },
+    "forces": {
+      "max_settlement_mm": 233.30965176907293,
+      "min_settlement_mm": 101.08121605369566,
+      "center_settlement_mm": 215.131211999117,
+      "edge_avg_settlement_mm": 167.1954339113843,
+      "center_dish_mm": 47.9357780877327,
+      "overturning_moment_kNm": 456894.27628358745,
+      "equivalent_lateral_force_kN": 4648.0526184010605,
+      "required_tie_force_per_buttress_kN": 1903.7261511816143,
+      "required_tie_force_per_buttress_kips": 427.9959872260823
+    }
+  },
+  "phased": {
+    "label": "Phased (Stabilize then Extract)",
+    "tilt": {
+      "diff_settlement_mm": 173.24052782862833,
+      "tilt_rad": 0.004059795089234364,
+      "tilt_degrees": 0.2326091243010665,
+      "top_displacement_m": 0.7981438603533234,
+      "top_displacement_inches": 31.4229866280836
+    },
+    "forces": {
+      "max_settlement_mm": 264.4762200329771,
+      "min_settlement_mm": 91.23569220434875,
+      "center_settlement_mm": 206.94264140954908,
+      "edge_avg_settlement_mm": 177.85595611866293,
+      "center_dish_mm": 29.08668529088615,
+      "overturning_moment_kNm": 598602.9621632088,
+      "equivalent_lateral_force_kN": 6089.6759055444545,
+      "required_tie_force_per_buttress_kN": 2494.17900901337,
+      "required_tie_force_per_buttress_kips": 560.7416836810634
+    }
+  },
+  "full_phased": {
+    "label": "Full Phased (Stabilize + Extract + Grout)",
+    "tilt": {
+      "diff_settlement_mm": 84.87975573316436,
+      "tilt_rad": 0.0019891180115374045,
+      "tilt_degrees": 0.11396806701454787,
+      "top_displacement_m": 0.3910531603420786,
+      "top_displacement_inches": 15.395793714255063
+    },
+    "forces": {
+      "max_settlement_mm": 162.84897559339447,
+      "min_settlement_mm": 77.96921986023011,
+      "center_settlement_mm": 132.6842945204627,
+      "edge_avg_settlement_mm": 120.40909772681229,
+      "center_dish_mm": 12.275196793650395,
+      "overturning_moment_kNm": 293289.2900427984,
+      "equivalent_lateral_force_kN": 2983.675049775157,
+      "required_tie_force_per_buttress_kN": 1222.03870851166,
+      "required_tie_force_per_buttress_kips": 274.73891828049904
+    }
+  }
+}
